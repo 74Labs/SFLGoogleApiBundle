@@ -1,4 +1,4 @@
-GoogleBundle
+GoogleApiBundle
 ============
 
-Symfony2 Google API bundle 
+Symfony2 Google APIs bundle 
