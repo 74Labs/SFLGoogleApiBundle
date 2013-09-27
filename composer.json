@@ -22,7 +22,7 @@
         "classmap": [ "vendor/google/google-api-php-client/src/" ]
     },
     "target-dir" : "SFL/GoogleApiBundle",
-	"repositories": [
+    "repositories": [
     {
         "type": "package",
         "package": {
