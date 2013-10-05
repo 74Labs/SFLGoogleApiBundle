@@ -2,7 +2,7 @@
     "name": "seventyfourlaboratories/google-api-bundle",
     "description": "Integrates Google APIs Client Library for PHP with Symfony2",
     "keywords": ["google", "gdata"],
-	"homepage": "http://github.com/SeventyFourLaboratories/SFLGoogleApiBundle",
+    "homepage": "http://github.com/SeventyFourLaboratories/SFLGoogleApiBundle",
     "type": "symfony-bundle",
     "license": "MIT",
     "authors": [{
@@ -11,29 +11,16 @@
     }],
     "require": {
         "symfony/framework-bundle": ">=2.2,<2.4-dev",
-        "google/google-api-php-client"  : "0.6.6"
-    },
-    "require-dev": {
-    },
-    "extra": {
+        "google/google-api-php-client": "0.6.7"
     },
     "autoload": {
-        "psr-0": { "SFL\\GoogleApiBundle\\": "" },
-        "classmap": [ "vendor/google/google-api-php-client/src/" ]
+        "psr-0": { "SFL\\GoogleApiBundle\\": "" }
     },
     "target-dir" : "SFL/GoogleApiBundle",
     "repositories": [
-    {
-        "type": "package",
-        "package": {
-            "name": "google/google-api-php-client",
-            "version": "0.6.6",
-            "source": {
-                "type": "svn",
-                "url": "http://google-api-php-client.googlecode.com/svn",
-                "reference": "tags/0.6.6"
-            }
+        {
+            "type": "composer",
+            "url": "http://raw.github.com/SeventyFourLaboratories/google-api-php-client/master/packages.json"
         }
-    }
     ]
 }
